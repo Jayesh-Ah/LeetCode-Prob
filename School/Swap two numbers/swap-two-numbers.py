@@ -11,6 +11,16 @@ class Solution:
         b = temp
         return(a,b)
 
+#ALTERNATE SOLUTION
+##
+class Solution:
+    def get(self, a, b):
+        a = a+b
+	b = a-b
+	a = a-b
+        return(a,b)
+##
+
 #{ 
  # Driver Code Starts.
 if __name__ == "__main__":
